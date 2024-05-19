@@ -1,0 +1,41 @@
+{
+  "name": "rest-api-proxy-middleware",
+  "version": "0.1.0",
+  "description": "Express oriented middleware which make the proxying simple with REST APIs",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/rest-api-proxy-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/rest-api-proxy-middleware/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/rest-api-proxy-middleware#readme",
+  "scripts": {
+    "lint": "standard",
+    "test": "node --test",
+    "pretest:coverage": "rimraf coverage",
+    "test:coverage": "c8 npm run test"
+  },
+  "keywords": [
+    "http-proxy",
+    "rest-api-proxy",
+    "middleware",
+    "express"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^9.1.0",
+    "express": "^4.19.2",
+    "rimraf": "^5.0.7",
+    "standard": "^17.1.0"
+  },
+  "enignes": {
+    "node": ">= 20"
+  }
+}
