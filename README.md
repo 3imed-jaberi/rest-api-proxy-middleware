@@ -28,6 +28,7 @@ app.use('/proxy-gateway', restApiProxyMiddleware({ target }));
 // We have extra options can be passed like:
 // - httpClient: help to replace the default native 'http' module with 'https'.
 // - onError: help to handle the produced errors.
+// We ship 'isURL' helper, which check if the passed string is a valid url or not!
 ```
 
 #### License

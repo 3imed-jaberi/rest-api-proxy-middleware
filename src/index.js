@@ -1,3 +1,7 @@
-const middlewareImplementation = require('./middleware-impl');
+const { isURL } = require('./is-url')
+const { restApiProxyMiddleware } = require('./middleware-impl')
 
-module.exports = middlewareImplementation;
+module.exports = {
+  isURL,
+  restApiProxyMiddleware
+}

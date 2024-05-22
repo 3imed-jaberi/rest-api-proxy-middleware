@@ -1,6 +1,6 @@
 {
   "name": "rest-api-proxy-middleware",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Express oriented middleware which make the proxying simple with REST APIs",
   "main": "src/index.js",
   "repository": {

@@ -1,9 +1,9 @@
-function isURL(maybeURL) {
+function isURL (maybeURL) {
   try {
-    new URL(maybeURL);
-    return true;
+    new URL(maybeURL)
+    return true
   } catch (error) {
-    return false;
+    return false
   }
 }
 
